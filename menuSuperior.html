@@ -1,0 +1,69 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container"> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menusuperior" aria-controls="menusuperior" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div id="menusuperior" class="collapse navbar-collapse">
+            <a href="home.php" class="navbar-brand">Ficha Técnica</a>
+            <ul class="navbar-nav pos-f-t mr-auto mt-2 mt-lg-0">
+                <li class="nav-item"><a class="nav-link" href="pubMotos.php">Motos</li></a>
+                <li class="nav-item"><a class="nav-link" href="pubCarros.php">Carros</li></a>
+                <li class="nav-item"><a class="nav-link" href="pubMarcas.php">Marcas</li></a>
+            </ul>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <div class="dropdown mobile-no">
+                <a href="" class="btn btn-dark dropdown-toggle" role="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa-solid fa-bars"></i> 
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                    <div class="escondido2">
+                        <a href="#" class="dropdown-item" data-toggle="modal" data-target="#contatoModal"><i class="fa-solid fa-phone-flip"></i>&nbsp;&nbsp;&nbsp;Contato</a>
+                        <div class="dropdown-divider"></div>
+                    </div>
+
+                    <div class="escondido">
+                        <a href="minhaconta.php" class="dropdown-item"><i class="fas fa-user-cog"></i>&nbsp; Minha Conta</a>
+                        <a href="minhaconta.php" class="dropdown-item"><i class="fas fa-asterisk"></i>&nbsp;&nbsp;&nbsp; Alterar Senha</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="sair.php" class="dropdown-item"><i class="fas fa-sign-out-alt"></i>&nbsp;&nbsp; Sair</a>
+                        <div class="dropdown-divider"></div>
+                    </div>
+                    <a href="homeAdm.php" class="dropdown-item"><i class="fa-solid fa-user-plus"></i>&nbsp;&nbsp;Administração</a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="modal fade" id="contatoModal" tabindex="-1" role="dialog" aria-labelledby="contatoModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="contatoModalLabel">Contato</h5>
+                        
+                    </div>
+                    <div class="modal-body">
+                        <!-- Seu formulário de contato aqui -->
+                        <label for="??">E-mail: wellbispozi@gmail.com</label><br>
+                        <label for="nome">Telefone: (13) 99694-5441</label>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+</nav>
+<script type="text/javascript">
+function mostrarContatoForm() {
+    var contatoForm = document.getElementById('contatoForm');
+    contatoForm.style.display = 'block';
+}
+</script>
+<script type="text/javascript">
+    function mostrarContatoForm() {
+        var contatoForm = document.getElementById('contatoForm');
+        contatoForm.style.display = 'block';
+    }
+</script>
